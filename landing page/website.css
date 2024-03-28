@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 13vw;
+    letter-spacing: 2px;
+}
+
+.bgOne{
+    background: #010330;
+}
+
+.parallax{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.parallax h1{
+    color: #fff;
+}
+
+
+.bgImg{
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgImg img {
+    display: block;
+    margin-top: auto;
+    width: 70%;
+}
